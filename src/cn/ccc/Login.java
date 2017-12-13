@@ -17,6 +17,8 @@ public class Login extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         super.doGet(req, resp);
+        System.out.println("weocome!");
+        System.out.println("111");
     }
 
     @Override
